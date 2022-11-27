@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Peliculas"
+        android:title="Peliculas" />
+    <item
+        android:id="@+id/anadir_pelicula"
+        android:title="Añadir pelicula" />
+    <item
+        android:id="@+id/App"
+        android:title="App" />
+
+    <item
+        android:id="@+id/salir"
+        android:title="Salir"
+        android:icon="@drawable/icono_salir"
+        app:showAsAction="ifRoom"/>
+</menu>
